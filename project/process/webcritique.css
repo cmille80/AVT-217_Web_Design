@@ -43,6 +43,11 @@ table {
 	border-spacing: 0;
 }
 
+body {
+    margin-top: 40px;
+    background-color: black
+}
+
 #wrapper {
 	margin: 0 auto;
 	width:960px;
@@ -73,6 +78,7 @@ table {
 .image {
 	float:left;
 	margin-bottom: 25px;
+    margin-top: 25;
 	object-fit: contain;
 }
 
@@ -83,18 +89,19 @@ table {
 
 .text p {
 	font-size: 17px;
+    color: lightgrey;
 	line-height: 19px;
-    margin-bottom: 25px;
+    margin-bottom: 255px;
 
 }
 
 h1 {
 	font-weight: bold;
     font-family: sans-serif;
-	color: black;
+	color: orange;
 	text-align: center;
 	font-size: 30px;
-	margin-bottom:100px;
+	margin-bottom:150px;
     margin-top: 50px;
 }
 
@@ -106,11 +113,11 @@ h2 {
 }
 
 h2 a:link {
-	color:rgba(96,96,96,1.00); background-color:transparent; text-decoration:none
+	color: orange; background-color:transparent; text-decoration:none
 }
 
 h2 a:visited {
-	color:white;
+	color: grey;
 }
 
 h2 a:hover {
