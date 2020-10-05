@@ -46,45 +46,89 @@ table {
 }
 
 body {
-    
-    font-family: sans-serif;
-    font
-    margin-top: 45px;
     margin-left: 45px;
-    padding-right: 450px;
+    margin-top: 45px;
+    background-color: black;
+    font-family: sans-serif;
+}
+
+#wrapper {
+	width: 100%;
+    height: 2em;
+	float: left;
+	margin: 20px 20px 0 20px;
+	line-height: 1.5em;
 }
 
 h1 {
-    
-    font-size: 14px;
-    color: darkgrey;
-    margin-bottom: 5px;
+    font-size: 35px;
+    font-weight: 600;
+    column-span: all;
+    margin-bottom: 15px;
+    color: orange;
 }
 
 h2 {
-    font-size: 24px;
-    font-weight: 700;
-    color: orange;
-    margin-bottom: 25px;
+    font-size: 25px;
+    margin-bottom: 5px;
+    color: darkgray;
 }
 
 h3 {
-    
-    font-weight: 700;
-    margin-bottom: 5px;
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: darkgray;
 }
 
-p {
-    
+
+h4 {
+    font-size: 20px;
     margin-bottom: 15px;
+    color: orange;
+}
+
+.weekly {
+  width: 60%;
+	float: left;
+	margin-right: 120px;
+	-moz-column-count: 2;
+  	-moz-column-gap: 1em;
+  	-webkit-column-count: 5;
+  	-webkit-column-gap: 1em;
+  	column-count: 2;
+  	column-gap: 1em;
+}
+
+dt {
+    font-size: 1em;
+	font-weight: normal;
+	color:#0058AE;
+	margin-left: 18px;
+	margin-top: 8px;
+	padding-top: 8px;
+}
+
+dd {
+	font-family: "myriad pro";
+	font-size: .9em;
+    color: lightgray;
+	font-weight: normal;
+	margin-left: 40px;
+	margin-top: 1px;
+	padding-top: 1px;
 }
 
 a:link {
-	color: #006600;
+	color: lightcyan;
 	text-decoration :none;
 }
 
 a:hover {
 	color:#0058AE;
 	text-decoration:underline;
+}
+
+a:visited {
+	color: darkslategray;
+	text-decoration: none;	
 }
