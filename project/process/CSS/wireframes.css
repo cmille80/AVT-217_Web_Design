@@ -71,6 +71,8 @@ h2 {
     color: lightgray;
 }
 
-table {
-    margin-bottom: 50px;
-}
+  img {
+            max-width: 90%;
+            height: auto;
+      margin-bottom: 75px;
+        }
